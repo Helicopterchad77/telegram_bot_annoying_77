@@ -52,7 +52,7 @@ def handle_response(text: str) -> str:
     
     
     else:
-        return "I cannot understand you unless you write something i can respond to using my in-built responses!"
+        return "I am sorry,but at this point of time time i have very limited responses, please be patient with me!"
     
     
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -96,3 +96,8 @@ app.add_error_handler(error)
 print("Polling...")
 app.run_polling(poll_interval = 3)
 
+
+
+
+
+#The bot can has many responses to different messages now...Goal is reached 

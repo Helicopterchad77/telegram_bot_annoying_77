@@ -1,0 +1,1 @@
+print("ChatGPT sucks and openai needs to teach ChatGPT how to print text properly")
